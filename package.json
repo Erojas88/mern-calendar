@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
+    "build": "vite build --base=/",
     "web": "npm start"
   },
   "keywords": [],
