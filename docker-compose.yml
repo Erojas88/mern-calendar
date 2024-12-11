@@ -1,7 +1,7 @@
 version: '1'
 services:
   app:
-    container_name: 10-CALENDAR-BACKEND
+    container_name: app
     restart: always
     build: .
     ports:
