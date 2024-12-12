@@ -1,11 +1,11 @@
-version: '1'
+version: '2.30.3'
 services:
   app:
     container_name: app
     restart: always
     build: .
     ports:
-      - "4000:4000"
+      - "3000:3000"
     links:
       - mongo
   mongo:
